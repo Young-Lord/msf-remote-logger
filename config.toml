@@ -1,0 +1,18 @@
+[server]
+host = "192.168.1.8"
+
+[msf]
+host = "127.0.0.1"
+port = 61529
+username = "u8edh1289hwqwd"
+password = "k2ffUE912hjesqw"
+
+[log]
+path = "log.txt"
+
+[app]
+check_interval = 1
+
+[bin]
+msfvenom = "msfvenom.bat"
+msfrpcd = "msfrpcd.bat"
